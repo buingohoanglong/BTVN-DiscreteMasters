@@ -167,20 +167,73 @@ KHOA KHOA HỌC - KỸ THUẬT MÁY TÍNH
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
 \clearpage
-\subsubsection{Bài tập 4}
-\textbf{Đề bài:} 
+\subsubsection{Bài tập 4} 
+\textbf{Đề bài:} State the converse, contrapositive of each of these conditional statements
+\begin{enumerate}[a)]
+\item If it snows today, i will ski tomorrow.
+\item I come to class whenever  there í going to be a quiz
+\item A positive integer is a prime only if it has no divisors other than 1 and it self
+\end{enumerate}
 \\\ \\\
-\textbf{Lời giải:} \\\ \\\
+\textbf{Lời giải:} 
+\begin{enumerate}[a)]
+\item Converse: If i will ski tomorrow, it snows today.\\
+Contrapositive: If i won't ski tomorrow, it doesn't snow today.
+\item Converse:If i come to class, there is going to be a quiz.\\
+Contrapositive: If i don't come to class, there ín't going to be a quiz.
+\item Converse: If it has no divisors other than 1 and it self, a positive integer is a prime.\\
+Contrapositive: If it has divisors other than 1 and it self, a positive integer isn't a prime.
+\end{enumerate}
+ \\\ \\\
 \clearpage
 \subsubsection{Bài tập 5}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Let $p,q$ and $r$ be the propositions.\\
+$p:$ You have the flu.\\
+$q:$ You miss the final examination.\\
+$r:$ You pass the course.\\
+Express each of these proposition as an English sentences.
+\begin{enumerate}[a)]
+\item $p \implies q$
+\item $\lnot q \leftrightarrow r$
+\item $q \implies \lnot r$
+\item $p \lor q \lor r$
+\item $(p \implies \not r) \lor (q \implies \lnot r)$
+\item $(p \land q) \lor (\lnot q \land r)$
+\end{enumerate}
 \\\ \\\
-\textbf{Lời giải:} \\\ \\\
+\textbf{Lời giải:} \begin{enumerate}[a)]
+\item You have the flu only if You miss the final examination
+\item You don't have the flu if and only if You pass the course
+\item If You miss the final examination, You don't pass the course 
+\item You have the flu or You miss the final examination or You pass the course.
+\item If You have the flu and You miss the final examination, then You don't pass the course
+\item You have the flu and You miss the final examination or You don't miss the final examination and You pass the course
+\end{enumerate}
+ \\\ \\\
 \clearpage
 \subsubsection{Bài tập 6}
-\textbf{Đề bài:} 
+\textbf{Đề bài:}  Let $p,q$ and $r$ be the propositions.\\
+$p:$ You get an A on the final exam.\\
+$q:$ You do every exercise in this book.\\
+$r:$ You get an A in this class.\\
+Write these propositions using $p,q$ and $r$ and logical connectives (including negations)
+\begin{enumerate}[a)]
+\item You get an A in this class but You do not do every exercise in this book
+\item You get an A on the final exam, You do every exercise in this book and You get an A in this class.
+\item To get an A in this class, it is necessary for you to get an A in the final exam. 
+\item You get an A on the final exam but You don't do every exercise in this book;nevertheless,You get an A in this class.
+\item Getting an A on the final exam and doing every exercise in this book is sufficient for getting an A in this class.
+\item You will get an A on this class if and only if you either do every exercises in this book or you get an A on the final.
+\end{enumerate}
 \\\ \\\
-\textbf{Lời giải:} \\\ \\\
+\textbf{Lời giải:}  \begin{enumerate}[a)]
+\item $\lnot q \land r$
+\item $(p \land q) \implies r$
+\item $r \implies p$
+\item $(p \land \lnot q) \land r$ 
+\item $(p \land q) \implies r$
+\item $r \leftrightarrow (q \lor p)$
+\end{enumerate}\\\ \\\
 \clearpage
 \subsubsection{Bài tập 7}
 \textbf{Đề bài:} 
@@ -261,14 +314,48 @@ Ta có thể biểu diễn sang: $(m \lor \lnot r \lor b) \rightarrow \lnot g$.
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 3}
-\textbf{Đề bài:} 
+\textbf{Đề bài:}  Construct a truth table for the compound propositions $((p\implies (q\implies r))\implies s)$.
 \\\ \\\
-\textbf{Lời giải:} \\\ \\\
+\textbf{Lời giải:} \begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+$p$ & $q$ & $r$ & $s$ & $q\implies r$ & $p\implies (q\implies r)$ & $((p\implies (q\implies r))\implies s)$  \\
+\hline 1&1&1&1&1&1&1\\
+\hline 1&1&1&0&1&1&0\\
+\hline 1&1&0&1&0&0&1\\
+\hline 1&1&0&0&0&0&1\\
+\hline 1&0&1&1&1&1&1\\
+\hline 1&0&1&0&1&1&0\\
+\hline 1&0&0&1&1&1&1\\
+\hline 1&0&0&0&1&1&0\\
+\hline 0&1&1&1&1&1&1\\
+\hline 0&1&1&0&1&1&0\\
+\hline 0&1&0&1&0&1&1\\
+\hline 0&1&0&0&0&1&0\\
+\hline 0&0&1&1&1&1&1\\
+\hline 0&0&1&0&1&1&0\\
+\hline 0&0&0&1&1&1&1\\
+\hline 0&0&0&0&1&1&0\\
+\hline
+\end{tabular}
+ \\\ \\\
 \clearpage
 \subsubsection{Bài tập 4}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} On the island of Flopi, there are three types of people: Knights, Knaves, and Floppers. All inhabitants know which type the others are, but they are otherwise indistinguishable. Knights always tell the truth. Knaves always lie. Floppers always choose to lie or tell the truth by doing the opposite of the previous speaker (i.e. if someone just spoke a lie, the flopper will tell the truth; if someone just spoke a truth, the flopper will lie). While on your vacation, you come across three inhabitants, $A$, $B$, and $C$. They say the following, in order:
+\begin{quote}
+$A$ says, ``We are all knights.''\\
+$B$ says, ``$C$ is a knight.''\\
+$C$ says, ``$A$ is a knave.''\\
+$A$ says, ``$C$ lied.''
+\end{quote}
+Determine all possibilities of $A$, $B$, and $C$ being Knights, Knaves, or Floppers (not all need to be distinct). 
 \\\ \\\
-\textbf{Lời giải:} \\\ \\\
+\textbf{Lời giải:} \\We have 4 cases:
+\begin{itemize}
+\item $A$:Knave, $B$:Flopper, $C$: Knight.
+\item $A$:Knave, $B$:Knave, $C$: Knight.
+\item $A$:Flopper, $B$:Knave, $C$: Knave.
+\item $A$:Knave, $B$:Knave, $C$: Flopper.
+\end{itemize} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 5}
 \textbf{Đề bài:} 
@@ -296,6 +383,117 @@ Ta có điều phải chứng minh.
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsection{Bonus}
+\textbf{Bài tập 1.1.43:}Find the bitwise OR, bitwise AND, bitwise XOR of each of these pairs of bit string.
+\begin{enumerate}[a)]
+\item 101 1110, 010 0001
+\item 1111 0000, 1010 1010
+\item 00 0111 0001, 10 0100 1000
+\item 11 1111 1111, 00 0000 0000
+\end{enumerate}
+\textbf{Lời giải: } \begin{enumerate}[a)]
+\item 
+101 1110\\ 010 0001\\   
+111 1111 OR\\ 000 0000 AND\\ 111 1111 XOR\\
+\item
+1111 0000\\1010 1010\\
+1111 1010 OR\\1010 0000 AND\\0101 1010 XOR
+\item 
+00 0111 0001\\ 10 0100 1000\\
+10 0111 0001 OR\\00 0100 0000 AND\\10 0011 1001 XOR
+\item 
+11 1111 1111\\ 00 0000 0000\\
+11 1111 1111 OR\\ 00 0000 0000 AND\\11 1111 1111 XOR
+\end{enumerate} \\\ \\\
+\textbf{Bài tập 1.1.44:} Evaluate each of these expressons
+\begin{enumerate}[a)]
+\item $1 1000 \land (0 1011 \lor 1 1011)$
+\item $(0 1111 \land 1 0101) \lor 0 1000$
+\item $(0 1010 \xor 1 1011) \xor 0 1000$
+\item $(1 1011 \lor 0 1010) \land (1 0001 \lor 1 1011)$
+\end{enumerate}
+\textbf{Lời giải: } \begin{enumerate}[a)]
+\item 0 1011\\1 1011\\
+1 1011 OR\\ 1 1000\\1 1000 AND
+\item 0 1111\\ 1 0101\\
+0 0101 AND\\ 0 1000\\0 1101 OR
+\item  0 1010\\1 1011\\
+1 0001 XOR\\0 1000\\1 1001 XOR
+\item 1 1011\\0 1010\\1 1011 OR\\\\
+1 0001\\1 1011\\1 1011 OR\\\\
+1 1011\\1 1011\\1 1011 AND
+\end{enumerate}\\\ \\\
+\textbf{Bài tập 1.2.1:}  You can not edit a protected Wikipedia entry unless you are an administrator. Express your answer in term of $e$:" You can edit a protected Wikipedia entry" and $a$:" You are an administrator".
+\textbf{Lời giải: }  $\lnot a \implies \lnot e$
+\\\ \\\
+\textbf{Bài tập 1.2.2:} You can see the movie only if you are over 18 years old or you have the permission of a parent. Express your answer in term of $m$:" You can see the movie", $e$:" You are over 18 years old", and $p$:" You have the permission of a parent".
+\textbf{Lời giải: } $m \implies (e \lor p)$ \\\ \\\
+\textbf{Bài tập 1.2.3:} You can graduate only if you have completed the requirements of your major and you do not owe  money to the university and you do not have an overdue library book. Express your answer in term of $g$:"You can graduate", m:" You owe money to the university", r:"You have completed the requirements of your major", and b:"You have an overdue library book".
+\textbf{Lời giải: } $g \implies (r \land \lnot m \land \lnot b)$
+ \\\ \\\
+\textbf{Bài tập 1.2.4:} To use the wireless network in the airport you must pay the daily fee unless you are subscriber to the service. Express your answer in terms of w:"You can use the wireless network in the airport", d:"You pay the daily fee", and s:"You are a subscriber to the service. 
+\textbf{Lời giải: }  $\lnot s \implies (d \implies w)$
+ \\\ \\\
+\textbf{Bài tập 1.2.5:} You are eligible  to be President of the USA only if you are at least 35 years old, were born in the USA, or at the time of your birth both of your parents were citizens, and you have lived at least 14 years in the country. Express your answer in term of e:"You are eligible to be President of the USA.", a:"You are at least 35 years old", b:" You were born in the USA", p:"At the time of your birth , both of your parents were citizens", and r:"You have lived at least 14 years in the USA".
+\textbf{Lời giải: } $e \implies [(a \land b) \lor (p \land r)]$ \\\ \\\
+\textbf{Bài tập 1.2.7:} Express these system specifications using the propositions p:" The message is scanned for viruses", and q:"The message was sent from an unknown system" together with logical connectives (including negations).
+\begin{enumerate}[a)]
+\item The mesage is scanned for viruses whenever the message was  sent from an unknown system.
+\item The message was  sent from an unknown system but it was not scanned for viruses.
+\item It is necessary to scan the message for viruses whenever it was sent from an unknown system.
+\item When a message is not sent from an unknown system it is not scanned for viruses.
+\end{enumerate}
+ 
+\textbf{Lời giải: } \begin{enumerate}[a)]
+\item $q \implies  p$
+\item $q \land \lnot  p$
+\item $q \implies  p$
+\item $\lnot q \implies \lnot  p$
+\end{enumerate}
+\\\ \\\
+\textbf{Bài tập 1.2.8:}  Express these system specifications using the propositions p:" The user enters a valid password", q:"Access is granted", and r:"The user has paid the subscription fee", and logical connectives (including negations).
+\begin{enumerate}[a)]
+\item The user has paid the subscription fee, but does not enter a valid password.
+\item Access is granted whenever the user has paid  the subscription fee and enters a valid password.
+\item Access is denied if the user has not paid the subscription fee.
+\item If the user has not enter a valid password but has paid the subscription fee, then access is granted.
+\end{enumerate}
+\textbf{Lời giải: } \begin{enumerate}[a)]
+\item $r \land \lnot p$
+\item $(r \land p) \implies q$
+\item $\lnot r \implies \lnot q$
+\item $\lnot p \implies (r \implies q)$
+\end{enumerate} \\\ \\\
+\textbf{Bài tập 1.2.9:}  Are these system specifications consistent?" The system is in multiuser state if and only if it is operating normally . If the system is operating normally , the kernel is functioning. The kernel is not functioning  or the system is in interrupt mode. If the system is not in multiuser state, then it is in interrupt mode. The system is not in interrupt mode.
+\textbf{Lời giải: } Let $m,n,k$ and $i$ be represent the propositions "The system is in multiuser state", "The system is operating normally", "The kernel is functioning", and "The system is in interrupt mode", respectively. Then we want to make the following expressions simultaneously true by our choiceof truth values for $m,n,k,i$:
+$$m \leftrightarrow n, n \implies k, \lnot k \lor i, \lnot m \implies i, \lnot i$$
+In order to this happen, clearly i must be false. In order to $\lnot m \implies i$ to be true when i is false, the hypothesis $\lnot m$ must be false, so $m$ must be true. Since we want $m \leftrightarrow  n$ to be true, this implies that n must also be true. Since we want $n \implies k$ to be true, we must therefore have k true. But now if k is true and i is false, then the third specification $\lnot k \lor i$ is false. Therefore, we conclude that this system is not consistent.  \\\ \\\
+\textbf{Bài tập 1.2.10:}  Are these  system specifications consistent?" Whenever the system software  is being upgraded, users cannot access the file system. If users can access the file system, then they can save new files. If users cannot save new files, then the system software is not being upgraded."
+\textbf{Lời giải: } \\Let $p,q,r$ represent the propositions "The system software is being upgraded", "Users cannot access the file system", and "They can save new file", respectively. Then we want to make the following expression simultaneously true by our choice of truth values for $p,q,r$:
+$$p \implies q, \lnot q \implies r, \lnot r \implies \lnot p$$
+If p is false, then $p \implies q $ is true. p is false, which means $\lnot p $ is true. Since $\lnot r \implies \lnot p$ is true and $\lnot p$ is true, this implies that $\lnot r$ is true, which means r is false. r is false and $\lnot q \implies r$ is true, so $\lnot q$ must be false, which means q is true. Therefore, if p is false, q is true and r is false then all three specifications are true, so they are consistent. 
+ \\\ \\\
+\textbf{Bài tập 1.2.11:} Are these system specifications consistent? "The router can send packets to the edge system only if it supports the new address space. For the router to support the new address space it is necessary that the latest software release be installed. the router can send packets to the edge system if the latest  software  release is installed. The router does not support the new address space".    
+\textbf{Lời giải: } \\Let $s$ be "The router can send packets to the edge system", let $a$ be "The router supports the new address space", let $r$ be "The latest software release is installed ". Then we are told $s \implies a, a \implies r , r \implies s$ and $\lnot a$. Since $a$ is false, the first conditional statement tells us that $s$ must be false. From that we deduce from the third conditional statement that $r$ must be false. If indeed all three propositions are false, then all four specifications are true, so they are consistent.  \\\ \\\
+\textbf{Bài tập 1.2.12:} Are these system specifications consistent?"If the file system is not locked, then new messages will be queued. If the file system is not locked, then the system is functioning normally , and conversely. If new messages are not queued, then they will be sent to the message buffer. If the file system is not locked, then new messages will be sent to the message buffer. New messages will not be sent to the message buffer."
+\textbf{Lời giải: } \\Let $p,q,r,s$ represent the propositions "The file system is locked", "Then new messages will be queue ", "The system is functioning normally", "The new messages will be sent to the message buffer", respectively. Then we are told $\lnot p \implies q, \lnot p \leftrightarrow r, \lnot q \implies s, \lnot p \implies s, \lnot s$. Since $s$ is false, the third conditional statement tells us that $\lnot q$ must be false (which means q is true), and the fourth conditional statement tells us that $\lnot p$ must be false ( which means p is true). Since $\lnot p$  is false, the second conditional statement tells us that r must be false. If indeed p,q are false and s,r are false, then all of five specifications are true, so they are consistent.
+ \\\ \\\
+\textbf{Bài tập 1.2.15:} Each inhabitant of a remote village always tells the truth or always lies. A villager will give only a "Yes" or a "No" response  to a question a tourist asks . Suppose you are a tourist visiting this area and come to a fork in the road. One branch  leads to the ruins you want to visit, the other branch leads deep into the jungle.A village is standing at the fork in the road. What one question  you can ask the villager to determine which branch to take?
+\textbf{Lời giải: } \\One question we can ask the villager to determine which branch to take is: "If I were to ask you whether the right branch leads to the ruins, would you say yes?" If the villager is a truth-teller, then of course he will reply "yes" if and only if the right branch leads to the ruins. Now let's see what the liar says. If the right branch leads to the ruins, then he would says "no" if asked whether the right branch leads to the ruins. Therefore, the truthful answer to your convoluted question is "no".Since he always lies, he will reply "yes". On the other hand, if the right branch does not lead to the ruins, then he would say "yes", if asked whether the right branch leads to the ruins, and so the truthful answer to your question is "yes"; therefore, he will reply "no". Note that in both cases, he gives the same answer to your question as the truth-teller ;namely, he says "yes" if and only if the right branch leads to the ruins. 
+ \\\ \\\
+\textbf{Bài tập 1.2.16:} An explorer is capture by a group of cannibals. There are two type of cannibals-those who always tell the truth and those whose always lie. The cannibals will barbecue the explorer unless he can determine whether a particular cannibal always lies or always tell the truth. He is allowed to ask the cannibal exactly one question.
+\begin{enumerate}[a)]
+\item Explain why the question "Are you a liar?" does not work.
+\item Find a question that the explorer can use to determine whether the cannibal always lies or always tells the truth.  
+\end{enumerate}
+\textbf{Lời giải: } \begin{enumerate}[a)]
+\item If the cannibal asked by an explorer is a truth-teller, of course he will reply "no". If he is a liar, then he won't admit he is a liar, so he will also reply "no". Since both the truth-teller and the liar have the same answer to an explorer's question, an explorer cannot determine whether a particular cannibal always lies or always tells the truth.
+\item The question an explorer should ask is: "If I asked whether you are a liar, would you say "yes"?". 
+\end{enumerate} \\\ \\\
+\textbf{Bài tập 1.2.17:}  When three professors are seated in a restaurant, the hostess asks them:"Does every one want coffee?". The first professor says:" I do not know".The second professor says:I do not know".Finally, the third professor says:"No, not every one wants coffee".The hostess come back and gives coffee to the professors who want it. How did she figure out who want coffee?
+\textbf{Lời giải: } \\The question was: "Does everyone want coffee?". If the first professor did not want coffee, then he would answer "no". Therefore, we and the hostess and the remaining professors know that the first professor wanted coffee. The same argument applies to the second professor,so he, too, must want coffee. The third professor can now answer the question. Because he said "no", we conclude that he did not want coffee. Therefore, the hostess knows to bring coffee to the first two professors but not to the third. \\\ \\\
+\textbf{Bài tập 1.2.18:}  When planning a party you want to know whom to invite. Among the people you would like to invite are three touchy friends. You know that if Jasmine attends, she will become unhappy if Samir is there , Samir will attend only if Kanti will be there, and Kanty will not attend unless Jasmine also does. Which combinations of these three friends can you invite so as not to make someone unhappy? 
+\textbf{Lời giải: } \\ I can invite Kanti and Jasmine but not Samir so as not to make someone unhappy.
+   \\\ \\\
 \textbf{Bài tập 1.3.12:} Show that each conditional statement here is a tautology without using truth tables: 
 \begin{enumerate}[a)]
 	\item $[\lnot p \land (p \lor q)] \rightarrow q$
@@ -474,34 +672,112 @@ Theo bảng giá trị này, ta suy ra được mệnh đề trên thỏa mãn y
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 9}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Let $L(x,y)$ be the statement "$x$ loves $y$ where the domain for both $x$ and $y$ consists of all people in the world. Use quantifiers to express each of these statements.
+\begin{enumerate}[a)]
+	\item Everybody loves Jerry.
+	\item Everybody loves somebody.
+	\item There is somebody whom everybody loves.
+	\item There is somebody whom Linda doesn't love.
+	\item There is somebody whom no one loves.
+	\item There is exactly one person whom everybody loves.
+\end{enumerate}
 \\\ \\\
-\textbf{Lời giải:} \\\ \\\
+\textbf{Lời giải:} \begin{enumerate}[a)]
+	\item $\forall x L(x,Jerry)$
+	\item $\forall x \exists y L(x,y)$
+	\item $\exists y \forall x L(x,y)$
+	\item $\exists y \lnot L(Linda,y)$
+	\item $\exists y \forall x \lnot L(x,y)$
+	\item $\exists y((\forall x L(x,y)) \land (\forall t((t \neq x) \implies y \lnot L(t,y))))$
+\end{enumerate}
+ \\\ \\\
 \clearpage
 \subsubsection{Bài tập 10}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Let $M(x,y)$ be "$x$ has sent $y$ an e-mail message" and $T(x,y)$ be "$x$ has telephoned $y$" where the domain consists of all students in your class.Use quantifiers to express each of these statements
+\begin{enumerate}[a)]
+	\item Chou has never sent an e-mail message to Koko.
+	\item Arlene has never sent an e-mail message to or telephoned Sarah.
+	\item Jose has never received an e-mail message from Deborah.
+	\item Every student in your class has sent an e-mail message to Ken.
+	\item No one in your class has telephoned Nina.
+	\item Everyone in your class has either telephoned Avi or sent him an e-mail message.
+	\end{enumerate}
 \\\ \\\
-\textbf{Lời giải:} \\\ \\\
+\textbf{Lời giải:} \begin{enumerate}[a)]
+	\item $\lnot M(Chou,Koko)$
+	\item $\lnot M(Arlene,Sarah) \land \lnot T(Arlene,Sarah)$
+	\item  $\lnot M(Deborah,Jose)$
+	\item $\forall x \lnot T(x,Nina)$
+	\item $\forall x M(x,Ken)$
+	\item $\forall x (M(x,Avi) \lor T(x,Avi))$
+	\end{enumerate} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 11}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Let $C(x)$ be the statement "$x$ has a cat", $D(x)$ be the statement "$x$ has a dog" and $F(x)$ be the statement "$x$ has a ferret". Express each of these statement in terms of $C(x),D(x),F(x)$, quantifiers and logical connectives. Let the domain consist of all students in your class.
+\begin{enumerate}[a)]
+	\item A student in your class has cat, a dog, and a ferret.
+	\item All students in your class have a cat, a dog, or a ferret.
+	\item  Some students in your class have a cat, a ferret, but not a dog.
+	\item No student in your class has a cat, a dog, and a ferret.
+	\item For each of the three animals, cats, dogs, and ferrets, there is a student in your class who has this animal as a pet.
+	\end{enumerate}
 \\\ \\\
-\textbf{Lời giải:} \\\ \\\
+\textbf{Lời giải:} \begin{enumerate}[a)]
+	\item $\exists x(C(x) \land D(x) \land F(x))$
+	\item $\forall x(C(x) \lor D(x) \lor F(x))$
+	\item $\exists x(C(x) \land F(x) \land \lnot D(x))$
+	\item $\forall x(\lnot C(x) \lor \lnot D(x) \lor \lnot F(x))$
+	\item Let $A(x)$ be the statement:"$x$ has $y$".\\
+	and $B(y)$ be the statement:"$y$ is a pet".\\
+	Domain for $y$: cats, dogs, and ferrets.\\
+	$\exists x \exists y (A(x) \land B(y))$
+	\end{enumerate} \\\ \\\
 \clearpage
-\subsubsection{Bài tập 12}
-\textbf{Đề bài:} 
+\subsubsection{Bài tập 12} 
+\textbf{Đề bài:} Express each of these system specifications using predicates, quantifiers, and logical connectives.\\
+$A(x)$:" User $x$ has access to an electronic mailbox.\\
+$A(x,y)$:" Group member $x$ can access resource $y$"\\
+$S(x,y)$:" System/Router $x$ is in state $y$"\\
+$T(x)$:" The throughput is at least $x$ kbps"\\
+$M(x,y)$:" Resource $x$ is in mode $y$"
+\begin{enumerate}[a)]
+	\item Every user has access to an electronic mailbox.
+	\item The system mailbox can be accessed by everyone in the group if the file system is locked.
+	\item The firewall is in a diagnostic state if the proxy server is in a diagnostic state.
+	\item At least one router is functioning normally if the throughput is between 100 kbps and 150 kbps and the proxy server is not in diagnostic mode.
+	\end{enumerate}
 \\\ \\\
-\textbf{Lời giải:} \\\ \\\
+\textbf{Lời giải:} \begin{enumerate}[a)]
+	\item $\forall x A(x)$
+	\item $\forall x (S(file,locked) \implies A(x,system mailbox))$
+	\item S(proxy server, diagnostic) $\implies $ S(firewall, diagnostic).
+	\item $[T(100) \land \lnot T(150) \land \lnot M(proxy server, diagnostic)] \implies [\exists x S(x, funtioning normally)]$
+	\end{enumerate} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 13}
-\textbf{Đề bài:} 
+\textbf{Đề bài:}  What rule of inference is use in each of these arguments.
+\begin{enumerate}[a)]
+	\item Alice is a mathematics major. Therefore, Alice is a mathematics major or a computer science major.
+	\item  Jerry is a mathematics major and a computer science major. Therefore, Jerry is a mathematics major.
+	\item If it is rainy then the pool will be closed. It is rainy. Therefore, the pool is closed.
+	\item If it snows today, then the university will close. The university is not closed today. Therefore, it did not snow today.
+	\item If i go swimming, then i will stay in the sun too long. If i stay in the sun too long, then i will sunburn. Therefore, if i go swimming, then i will sunburn. 
+	\end{enumerate}
 \\\ \\\
-\textbf{Lời giải:} \\\ \\\
+\textbf{Lời giải:} \begin{enumerate}[a)]
+	\item Addition
+	\item Simplification
+	\item Modus ponens
+	\item Modus tollens
+	\item Hypothetical syllogism 
+	\end{enumerate}
+ \\\ \\\
 \clearpage
 \subsubsection{Bài tập 14}
-\textbf{Đề bài:} 
+\textbf{Đề bài:}  What is wrong with this argument? Let $H(x)$ be "$x$ is happy". Given the premise $\exists xH(x)$, we conclude that $H(Lola)$. Therefore, Lola is happy.
 \\\ \\\
-\textbf{Lời giải:} \\\ \\\
+\textbf{Lời giải:} \\We cannot conclude that $H(Lola)$ because $\exists xH(x)$ means there is at least a person $x$ who is happy. We just know there is such a person but we do not know exactly who is he or she (this person can be Lola or cannot be her). Therefore, it is a mistake when we conclude that Lola is happy.
+ \\\ \\\
 \clearpage
 \subsubsection{Bài tập 15}
 \textbf{Đề bài:} 
@@ -706,9 +982,20 @@ Vậy ta có điều phải chứng minh.
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 2}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Let $P(x,y)$ be the statement "$x>y$ and $x$ is divisible by $y$". Let the domain consist of positive integers and write English sentences describing the following propositions.
+\begin{enumerate} [a)]
+\item $\exists x \forall y P(x,y)$
+\item $\exists y \forall x P(x,y)$
+\item $\forall x \exists y P(x,y)$
+\item $\forall y \exists x P(x,y)$
+\end{enumerate}
 \\\ \\\
-\textbf{Lời giải:} \\\ \\\
+\textbf{Lời giải:} \begin{enumerate} [a)]
+\item There is at least one positive integer is divisible by all other positive integers which is smaller than it.
+\item There is at least one positive integer which is factor of all other positive integers bigger than it. 
+\item Every positive integer have at least one factor which is smaller than it.
+\item Every positive integer is factor of at least one other positive integer bigger than it.
+\end{enumerate} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 3}
 \textbf{Đề bài:} 
@@ -737,7 +1024,112 @@ Q.E.D
 \clearpage
 
 \subsection{Bonus}
-
+\textbf{Bài tập 1.4.13: } Determine the truth value of each of these statements if the domain consists of all integers.
+\begin{enumerate}[a)]
+\item $\forall n(n+1>n)$
+\item $\exists n(2n=3n)$
+\item $\exists n(n=-n)$
+\item $\forall n(3n \leqslant 4n)$
+\end{enumerate}
+\textbf{Lời giải:} \begin{enumerate}[a)]
+\item T
+\item T
+\item T
+\item F
+\end{enumerate} \\\ \\\
+\textbf{Bài tập 1.4.18: } Suppose that the domain of the propositional function P(x) consists of the integer -2,-1,0,1 and 2. Write out each of these propositions using disjunctions, conjunction, and negations.
+\begin{enumerate}[a)]
+\item $\exists x P(x)$
+\item $\forall x P(x)$
+\item $\exists x \lnot P(x)$
+\item $\forall x \lnot P(x)$
+\item $\lnot \exists x P(x)$
+\item $\lnot \forall x P(x)$
+\end{enumerate}
+\textbf{Lời giải:} \begin{enumerate}[a)]
+\item $P(-2) \lor P(-1) \lor P(0) \lor P(1) \lor P(2)$
+\item $P(-2) \land P(-1) \land P(0) \land P(1) \land P(2)$
+\item $\lnot P(-2) \lor \lnot P(-1) \lor \lnot P(0) \lor \lnot P(1) \lor \lnot P(2)$
+\item $\lnot P(-2) \land \lnot P(-1) \land \lnot P(0) \land \lnot P(1) \land \lnot P(2)$
+\item $\lnot P(-2) \land \lnot P(-1) \land \lnot P(0) \land \lnot P(1) \land \lnot P(2)$
+\item $\lnot P(-2) \lor \lnot P(-1) \lor \lnot P(0) \lor \lnot P(1) \lor \lnot P(2)$
+\end{enumerate}
+ \\\ \\\
+\textbf{Bài tập 1.4.23: } Translate in two ways each of these statements  into logical expressions using predicates, quantifiers, and logical connectives.First, let the domain consist of the student in your class and second, let it consist of all people.
+\begin{enumerate}[a)]
+\item Someone in your class can speak Hindi
+\item Everyone in your class is friendly.
+\item There is a person in your class who was not born in California.
+\item A student in your class has been in a movie.
+\item No student in your class has taken a course in logic programming.
+\end{enumerate}
+\textbf{Lời giải:} Let Q(x) be the statement:"x is a student in your class"\\
+\begin{enumerate}[a)]
+\item Let A(x) be the statement:"x can speak Hindi."
+Domain: students in your class. $\exists x A(x)$.\\
+Domain: all people.$\exists x (A(x) \land Q(x))$.
+\item Let B(x) be the statement:"x is friendly."
+Domain: students in your class. $\forall x B(x)$.\\
+Domain: all people.$\forall x (B(x) \lor Q(x))$.
+\item Let C(x) be the statement:"x was not born in California."
+Domain: students in your class. $\exists x C(x)$.\\
+Domain: all people.$\exists x (C(x) \land Q(x))$.
+\item Let D(x) be the statement:"x has been in a movie."
+Domain: students in your class. $\exists x D(x)$.\\
+Domain: all people.$\exists x (D(x) \land Q(x))$.
+\item Let E(x) be the statement:"x has taken a course in logic programming."
+Domain: students in your class. $\forall x \lnot E(x)$.\\
+Domain: all people.$\forall x (\lnot E(x) \land Q(x))$.
+\end{enumerate} \\\ \\\
+\textbf{Bài tập 1.4.25: }  Translate each of these statements into logical expressions  using predicates, quantifiers, and logical connectives.
+\begin{enumerate}[a)]
+\item No one is perfect.
+\item Not everyone is perfect.
+\item All your friends are perfect.
+\item At least one of your friends is perfect.
+\item Everyone is your friend and is perfect.
+\item Not everybody is your friends or someone is not perfect.
+\end{enumerate}
+\textbf{Lời giải:} Let P(x) be the statement:"x is perfect"\\
+and Q(x) be the statement:"x is your friend".
+\begin{enumerate}[a)]
+\item $\forall x \lnot P(x)$
+\item $\exists x \lnot P(x)$
+\item $\forall x(Q(x) \implies P(x))$
+\item $\exists x (Q(x) \implies P(x))$
+\item $\forall x (Q(x) \land P(x))$
+\item $\exists x \lnot Q(x) \lor \exists \lnot P(x)$
+\end{enumerate} 
+ \\\ \\\
+\textbf{Bài tập 1.4.34: }Express the negation of these propositions using quantifiers, and then express the negation in English.
+ \begin{enumerate}[a)]
+\item Some drivers do not obey the speed limit.
+\item All Swedish movies are serious.
+\item No one can keep a secret. 
+\item There is someone in this class who does not have  good attitude.
+\end{enumerate} 
+\textbf{Lời giải:} \begin{enumerate}[a)]
+\item P(x):"x do not obey the speed limit"\\
+Domain: all drivers.\\
+$\exists x P(x)$\\
+Negation: $\forall x \lnot P(x)$\\
+All drivers obey the speed limit.
+\item P(x):"x is serious"\\
+Domain: Swedish movies.\\
+$\forall x P(x)$\\
+Negation: $\exists x \lnot P(x)$\\
+Some Swedish movies are not serious.
+\item P(x):"x can keep a secret"\\
+Domain: All people.\\
+$\forall x \lnot P(x)$\\
+Negation: $\exists x P(x)$\\
+Some people can keep a secret.
+\item P(x):"x does not have a good attitude"\\
+Domain: people in class.\\
+$\exists x P(x)$\\
+Negation: $\forall x \lnot P(x)$\\
+All people in this class have a good attitude.
+\end{enumerate}  \\\ \\\
 \textbf{Bài tập 1.5.18: }Express each of these system specifications using predicates, quantifiers, and logical connectives, if necessary.
 \begin{enumerate}[a)]
 \item At least one console must be accessible during every
@@ -832,10 +1224,15 @@ Domain: Tập số thực.
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
 \clearpage
-\subsubsection{Bài tập 2}
-\textbf{Đề bài:} 
+\subsubsection{Bài tập 2} 
+\textbf{Đề bài:} Give a proof of the following statement: if $x$ is a rational number and $y$ is an irrational number then $x+y$ and $xy$ is irrational.
 \\\ \\\
-\textbf{Lời giải:} \\\ \\\
+\textbf{Lời giải:} \\We give proofs by contradiction.
+\\Since $x$ is rational, we can write: $x=\dfrac{a}{b}$, where $a,b \in R$ and $b \neq 0$
+\begin{enumerate}[a)]
+\item Suppose that $x+y$ is rational, so we can write $x+y=\dfrac{c}{d}$, where $c,d \in R$ and $d \neq 0$(1). When we subtract $x$ in both side of (1), we obtain $y=\dfrac{bc-ad}{bd}$, so $y$ is rational. This leads to contradiction. Therefore, $x+y$ is irrational.
+\item Suppose that $xy$ is rational, so we can write $xy=\dfrac{c}{d}$, where $c,d \in R$ and $d \neq 0$(1). If $x \neq 0$, when both side of (1) are divided by $x$, we obtain $y=\dfrac{bc}{ad}$, so $y$ is rational. This leads to contradiction. Therefore, $xy$ is irrational.
+\end{enumerate} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 3}
 \textbf{Đề bài:} 
@@ -870,6 +1267,64 @@ Vậy (A,B) chỉ có thể là (Knave, Toggler) và (Toggler, Toggler).
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsection{Bonus}
+\textbf{Câu 1.7.24: } Show that at least three of any 25 days chosen must fall in the same month of the year. \\\ \\\
+\textbf{Lời giải: } \\ We give a proof by contradiction. If there were two or fewer days on each month of the year, this would account for most 2 x 12 = 24 days. But we chose 25 days. This contradiction show that at least three of the 25 days chosen must fall in the same month of the year. \\\ \\\
+\textbf{Câu 1.7.25: } Use a proof by contradiction to show that there is no rational number r for which $r^{3}+r+1=0$.(1) \\\ \\\
+\textbf{Lời giải: } \\ We give a proof by contradiction. Assume that there is a rational number r for which $r^{3}+r+1=0$. Then $r=\dfrac{a}{b}$, where $a$ and $b$ are integers and this fraction is in lowest term ($a$ and $b$ have no common divisor greater than 1).\\
+$(1) \Leftrightarrow \dfrac{a^{3}}{b^{3}}+\dfrac{a}{b}+1=0 \Leftrightarrow a^{3}+ab^{2}+b^{3}=0$(2).
+\\ If $a$ is even then $a^{3}+ab^{2}$ is even. (2)$\Leftrightarrow b^{3}$ is even $\Leftrightarrow$ $b$ is even (because 2 is a prime number). This is a contradiction because we have assumed that $a$ and $b$ have no common divisor greater than 1.
+\\ If $a$ is odd then (2) $\Rightarrow ab^{2}+b^{3}$ is odd, which means $b^{2}(a+b)$ is odd. Therefore, both $b^{2}$ and $a+b$ is odd. This statement leads to a contradiction because $a+b$ and $a$ are odd implies that $b$ is even but $b^{2}$ is odd implies that $b$ is odd.
+\\ Therefore, there is no rational number r for which  $r^{3}+r+1=0$, as desired.  \\\ \\\
+\textbf{Câu 1.7.26: } Prove that if n is a positive integer, then n is even if and only if 7n+4 is even. \\\ \\\
+\textbf{Lời giải: } \\ Assume that n is even, then $n=2k, (k \in Z) \Rightarrow 7n+4=14k+4=2(7k+2)$  $\vdots$ 2 $\Rightarrow 7n+4$ is even.
+\\ Assume that $7n+4$ is even, which means $7n \vdots 2$ (because 4 $\vdots$ 2). So $n \vdots 2$, which means n is even.
+\\\\ Therefore, n is a positive integer, then n is even if and only if $7n+4$ is even.  \\\ \\\
+\textbf{Câu 1.7.27: } Prove that if n is a positive integer, then n is odd if and only if 5n+6 is odd.
+ \\\ \\\
+\textbf{Lời giải: } \\ Assume that n is odd, then $n=2k+1, (k \in Z) \Rightarrow 5n+6=10k+11=2(5k+5)+1 \Rightarrow 5n+6$ is odd.
+\\ Assume that $n$ is even, then $n=2k, (k \in Z) \Rightarrow 5n+6=10k+6=2(5k+3) \Rightarrow 5n+6$ is even.
+\\Therefore, n is a positive integer, then n is odd if and only if $5n+6$ is odd.   \\\ \\\
+\textbf{Câu 1.7.28: } Prove that $m^{2}=n^{2}$ if and only if $m=n$ or $m=-n$.
+ \\\ \\\
+\textbf{Lời giải: } $$m^{2}=n^{2} \Leftrightarrow (m+n)(m-n)=0 \Leftrightarrow [\begin{array}{l} m=n \\ m=-n \end{array} $$ \\\ \\\
+\textbf{Câu 1.7.29: } Prove or disprove that if m and n are integers such that $mn=1$, then either $m=1$ and $n=1$, or else $m=-1$ and $n=-1$
+ \\\ \\\
+\textbf{Lời giải: } $mn=1 \Leftrightarrow m=\dfrac{1}{n}$(1)
+Since m is integer,(1)$\Rightarrow$ n divides 1 $\Rightarrow[\begin{array}{l} n=1 \\ n=-1 \end{array}$
+\\If $n=1$, then $m.1=1 \Leftrightarrow m=1$
+\\If $n=-1$, then $m.(-1)=1 \Leftrightarrow m=-1$
+\\Therefore, $mn=1$ then either $m=1$ and $n=1$, or else $m=-1$ and $n=-1$ \\\ \\\
+\textbf{Câu 1.7.30: } Show that these three statements are equivalent, where a and b are real numbers:(i) a is less than b,(ii) the average of a and b is greater than a,and (iii) the average of a and b is less than b \\\ \\\
+\textbf{Lời giải: } \begin{itemize}
+\item $\dfrac{a+b}{2} > a \Leftrightarrow a+b>2a \Leftrightarrow a<b$
+\item $\dfrac{a+b}{2} < b \Leftrightarrow a+b<2b \Leftrightarrow a<b$ 
+\end{itemize}
+Therefore, $a<b \Leftrightarrow \dfrac{a+b}{2}>a \Leftrightarrow \dfrac{a+b}{2}<b$ \\\ \\\
+\textbf{Câu 1.7.33: }  Show that these statements about the real number x are equivalent:(i) x is irrational,(ii)3x+2 is irrational,(iii) x/2 is irrational.
+ \\\ \\\
+\textbf{Lời giải: } \\We give proof by contraposition of $(i) \implies (ii),(ii) \implies (i),(i) \implies (iii),(iii) \implies (i)$.
+\begin{itemize}
+\item For the first of these, suppose that $3x+2$ is rational, then $3x+2=\dfrac{a}{b}$, where $a,b \in Z, b\neq 0$. Then we can write $x=\dfrac{a-2b}{3b}$. This shows that $x$ is rational.
+\item For the second conditional statement, suppose that $x$ is rational, then $x=\dfrac{a}{b}$, where $a,b \in Z, b\neq 0$. Then we can write $3x+2=\dfrac{3a+2b}{b}$. This shows that $3x+2$ is rational.
+\item  For the third conditional statement, suppose that $\dfrac{x}{2}$ is rational, then $\dfrac{a}{2}=\dfrac{a}{b}$, where $a,b \in Z, b\neq 0$. Then we can write $x=\dfrac{2a}{b}$. This shows that $x$ is rational.
+\item For the fourth conditional statement, suppose that $x$ is rational, then $x=\dfrac{a}{b}$, where $a,b \in Z, b\neq 0$. Then we can write $\dfrac{x}{2}=\dfrac{a}{2b}$. This shows that $\dfrac{x}{2}$ is rational.
+\end{itemize}
+ \\\ \\\
+\textbf{Câu 1.7.34: }  Is this reasoning for finding the solutions of the equation $\sqrt{2x^{2}-1}=x$ correct?(1) $\sqrt{2x^{2}-1}=x$ is given;(2) $2x^{2}-1=x^{2}$, obtained by squaring both sides of (1);(3) $x^{2}-1=0$, obtained by subtracting $x^{2}$ from both sides of (2);(4) $(x-1)(x+1)=0$, obtained by factoring the left-hand side of $x^{2}-1$;(5) $x=1$ or $x=-1$, which follows because $ab=0$ implies that $a=0$ or $b=0$. \\\ \\\
+\textbf{Lời giải: } \\Since the squaring step is not reversible, the possible answers must be checked in the original equation. We know that no other solutions are possible, but we do not know that these two numbers are in fact solutions. If we plug in $x=1$ we get the true statement $1=1$, but if we plug in $x=-1$ we get the false statement $1=-1$. Therefore, $x=1$ is the one and only solution of $\sqrt{2x^{2}-1}=x$. 
+ \\\ \\\
+\textbf{Câu 1.7.35: }  Are these steps for finding the solutions of $\sqrt{x+3}=3-x$ correct?(1)$\sqrt{x+3}=3-x$ is given;(2)$x+3=x^{2}-6x+9$, obtained by squaring both sides of (1);(3)$0=x^{2}-7x+6$, obtained by subtracting $x+3$ from both sides of (2);(4)$0=(x-1)(x-6)$, obtained by factoring the right-hand side of(3);(5)$x=1$ or $x=6$,which follow from (4) because $ab=0$ implies that $a=0$ or $b=0$.  \\\ \\\
+\textbf{Lời giải: } \\Since the squaring step is not reversible, the possible answers must be checked in the original equation. We know that no other solutions are possible, but we do not know that these two numbers are in fact solutions. If we plug in $x=1$ we get the true statement $2=2$, but if we plug in $x=6$ we get the false statement $2=-2$. Therefore, $x=1$ is the one and only solution of $\sqrt{x+3}=3-x$.  \\\ \\\
+\textbf{Câu 1.7.38: } Find a counterexample to the statement that every positive integer can be written as the sum of the squares of three integers. \\\ \\\
+\textbf{Lời giải: } \\ 7 is a counterexample because 7 cannot be written as the sum of three integers. We will prove that.
+\\Assume that $7=a^{2}+b^{2}+c^{2}$(1), $(a,b,c \in Z)$ and $a \geqslant b \geqslant c$.
+\\(1)$\Rightarrow 3a^{2} \geqslant 7 \geqslant 3c^{2} \Rightarrow \begin{cases} a \geqslant \sqrt{\dfrac{7}{3}} \lor a \leqslant-\sqrt{\dfrac{7}{3}}
+\\ -\sqrt{\dfrac{7}{3}} \leqslant c \leqslant \sqrt{\dfrac{7}{3}}
+\end{cases} \Rightarrow \begin{cases} a \geqslant 2 \lor a \leqslant -2 \\ -1 \leqslant c \leqslant 1 \end{cases} $(because $a,c$ are integers)
+\\(1) $\Rightarrow a^{2} \leqslant 7 \Rightarrow -\sqrt{7} \leqslant a \leqslant \sqrt{7} \Rightarrow -2 \leqslant a \leqslant 2 \Rightarrow a=2 \lor a=-2$ (because $a \geqslant 2 \lor a \leqslant -2$) (2)
+\\(1)(2) $\Rightarrow b^{2}+c^{2}=3$.
+This statement leads to contradiction because there is no value of b that $\Rightarrow b^{2}+c^{2}=3$ with $c \in \{-1,0,1\}$
+\\Therefore, 7 cannot be written as the sum of the squares of three integers, as desired. \\\ \\\
 \clearpage
 
 \section{Homework03a\_Sets\_Function.pdf}
@@ -885,14 +1340,32 @@ Vậy (A,B) chỉ có thể là (Knave, Toggler) và (Toggler, Toggler).
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 3}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Let A and B be sets. Prove that $|A \cup B|=|A|+|B|-|A \cap B|$, using the following steps:
+\begin{enumerate}[1.]
+\item Prove that if E and F are disjoint sets (i.e $E \cap F = \O $), then $|E \cup F|=|E| +|F|$.
+\item Prove that $|A \cup B|=|A|+|B \backslash A|$.
+\item Prove that $|B \backslash A|=|B|-|A \cap B|$
+\item Conclude that $|A \cup B|=|A|+|B|-|A \cap B|$  
+\end{enumerate}  
 \\\ \\\
-\textbf{Lời giải:} \\\ \\\
+\textbf{Lời giải:} \begin{enumerate}[1.]
+\item The numbers of elements in E is $|E$ and the numbers of elements in F is $|F|$. Because, E and F are disjoint, there is no exist an element in both E and F, then the numbers of elements in the set $E+F$ is $|E \cup F|=|E| +|F|$(1)
+\item Because A and $B \backslash A$ are disjoint, from (1) we have $|A|+|B \backslash A|=|A \cup (B \backslash A)|=|A \cup (B \cap \lnot A)|=|(A \cup B) \cap (A \cup \lnot A)|=|(A \cup B) \cap U |=|A \cup B|$(2)  
+\item Because $B \backslash A$ and $A \cap B$ are disjoint, from (1) we have $|A \cap B|+|B \backslash A|=|(A \cap B) \cup (B \backslash A)|=|(A \cap B) \cup (B \cap \lnot A)|=|B \cap (A \cup \lnot A)|=|B \cap U|=|B|$. Then $|B \backslash A|=|B|-|A \cap B|$(3)
+\item From (1)(2)(3), we can conclude that  $|A \cup B|=|A|+|B|-|A \cap B|$ .  
+\end{enumerate}   \\\ \\\
 \clearpage
 \subsubsection{Bài tập 4}
-\textbf{Đề bài:} 
+\textbf{Đề bài:}  Let $U= \{1,2,3,4,5,6,7\}$, $A=\{1,3,5,7\}$, and $B=\{4,5,6,7\}$. Determine the following sets:
+$$\lnot A, A \cap B, A \cup B, A \backslash B, A \triangle B$$
 \\\ \\\
-\textbf{Lời giải:} \\\ \\\
+\textbf{Lời giải:} \begin{itemize}
+\item $\lnot A=\{2,4,6\}$.
+\item $A \cap B=\{5,7\}$.
+\item $A \cup B=\{1,3,4,5,6,7\}$.
+\item $A \backslash B=\{1,3\}$.
+\item $ A \triangle B=\{1,3,4,6\}$.
+\end{itemize} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 5}
 \textbf{Đề bài:} 
@@ -927,6 +1400,48 @@ Ta thấy mọi ảnh của $g \circ f$ đều phân biệt và mọi ảnh đ�
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsection{Bonus}
+\textbf{Câu 2.1.35: } \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+\textbf{Câu 2.1.36: } \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+\textbf{Câu 2.1.37: } \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+\textbf{Câu 2.1.39: } \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+\textbf{Câu 2.1.40: } \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+\textbf{Câu 2.1.45: } \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+\textbf{Câu 2.1.46: } \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+\textbf{Câu 2.1.47: } \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+\textbf{Câu 2.2.5: } \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+\textbf{Câu 2.2.6: } \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+\textbf{Câu 2.2.7: } \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+\textbf{Câu 2.2.8: } \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+\textbf{Câu 2.2.9: } \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+\textbf{Câu 2.2.10: } \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+\textbf{Câu 2.2.11: } \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+\textbf{Câu 2.2.12: } \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+\textbf{Câu 2.2.13: } \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+\textbf{Câu 2.2.14: } \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+\textbf{Câu 2.2.15: } \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+\textbf{Câu 2.2.16: } \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+\textbf{Câu 2.2.17: } \\\ \\\
+\textbf{Lời giải:} \\\ \\\
 \clearpage
 
 \section{Homework03b\_Sequences.pdf}
