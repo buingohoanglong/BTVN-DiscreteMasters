@@ -1400,48 +1400,294 @@ Ta thấy mọi ảnh của $g \circ f$ đều phân biệt và mọi ảnh đ�
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsection{Bonus}
-\textbf{Câu 2.1.35: } \\\ \\\
-\textbf{Lời giải:} \\\ \\\
-\textbf{Câu 2.1.36: } \\\ \\\
-\textbf{Lời giải:} \\\ \\\
-\textbf{Câu 2.1.37: } \\\ \\\
-\textbf{Lời giải:} \\\ \\\
-\textbf{Câu 2.1.39: } \\\ \\\
-\textbf{Lời giải:} \\\ \\\
-\textbf{Câu 2.1.40: } \\\ \\\
-\textbf{Lời giải:} \\\ \\\
-\textbf{Câu 2.1.45: } \\\ \\\
-\textbf{Lời giải:} \\\ \\\
-\textbf{Câu 2.1.46: } \\\ \\\
-\textbf{Lời giải:} \\\ \\\
-\textbf{Câu 2.1.47: } \\\ \\\
-\textbf{Lời giải:} \\\ \\\
-\textbf{Câu 2.2.5: } \\\ \\\
-\textbf{Lời giải:} \\\ \\\
-\textbf{Câu 2.2.6: } \\\ \\\
-\textbf{Lời giải:} \\\ \\\
-\textbf{Câu 2.2.7: } \\\ \\\
-\textbf{Lời giải:} \\\ \\\
-\textbf{Câu 2.2.8: } \\\ \\\
-\textbf{Lời giải:} \\\ \\\
-\textbf{Câu 2.2.9: } \\\ \\\
-\textbf{Lời giải:} \\\ \\\
-\textbf{Câu 2.2.10: } \\\ \\\
-\textbf{Lời giải:} \\\ \\\
-\textbf{Câu 2.2.11: } \\\ \\\
-\textbf{Lời giải:} \\\ \\\
-\textbf{Câu 2.2.12: } \\\ \\\
-\textbf{Lời giải:} \\\ \\\
-\textbf{Câu 2.2.13: } \\\ \\\
-\textbf{Lời giải:} \\\ \\\
-\textbf{Câu 2.2.14: } \\\ \\\
-\textbf{Lời giải:} \\\ \\\
-\textbf{Câu 2.2.15: } \\\ \\\
-\textbf{Lời giải:} \\\ \\\
-\textbf{Câu 2.2.16: } \\\ \\\
-\textbf{Lời giải:} \\\ \\\
-\textbf{Câu 2.2.17: } \\\ \\\
-\textbf{Lời giải:} \\\ \\\
+\textbf{Câu 2.1.35: } How many difference elements does $A$x$B$ have if A has m elements and B has n elements? \\\ \\\
+\textbf{Lời giải:} $m.n$ \\\ \\\
+\textbf{Câu 2.1.36: } How many difference elements does $A$x$B$x$C$ have if A has m elements, B has n elements, and C has p elements?
+ \\\ \\\
+\textbf{Lời giải:} $m.n.p$ \\\ \\\
+\textbf{Câu 2.1.37: } How many difference does $A^{n}$ have if A has m elements and n is a positive integer? \\\ \\\
+\textbf{Lời giải:}  $m^{n}$ \\\ \\\
+\textbf{Câu 2.1.39: }  Explain why A x B x C and (A x B) x C are not the same?
+ \\\ \\\
+\textbf{Lời giải:} The elements of A x B x C consist of 3-tuples ($a,b,c$) where $a \in A, b \in B, c\in c$ but the elements of (A x B) x C consist of ordered pairs (p,c) where $p \in A$ x $B$ and $c \in C$, so the typical element of (A x B) x C look like $((a,b),c)$ \\\ \\\
+\textbf{Câu 2.1.40: } Explain why (A x B) x (C x D) and A x (B x C) x D are not the same? \\\ \\\
+\textbf{Lời giải:} The element of (A x B) x (C x D) look like $((a,b),(c,d))$ where $a \in A, b \in B, c \in C, d \in D$ but the element of A x (B x C) x D look like $(a,(b,c),d)$. \\\ \\\
+\textbf{Câu 2.1.45: } The defining property of an order pair is that two ordered pairs are equal if and only if their first elements  are equal and their second elements are equal. Surprisingly, , instead of taking the ordered pair as a primitive concept, we can construct ordered pair using basic notions from set theory. Show that if we define  the ordered pair $(a,b)$ to be $\{\{a\},\{a,b\}\}$ then $(a,b)=(c,d)$ if and only if $a=c$ and $b=d$.    \\\ \\\
+\textbf{Lời giải:} \\Firstly, we want to show that if $\{\{a\},\{a,b\}\}=\{\{c\},\{c,d\}\}$ then $a=b$ and $c=d$.$\{\{a\},\{a,b\}\}=\{\{c\},\{c,d\}\}$ so $\{a\}=\{c\}$ and $\{a,b\}=\{c,d\}$. Hence, $a=c$. We have $\{a,b\}=\{c,d\}$ and $a=c$ so we must have $b=d$. The other possibility is that $a=b$. Then $\{\{a\},\{a,b\}\}=\{a\}$, a set with one element. Hence $\{\{c\},\{c,d\}\}$ must also have one element, which can only happen when $c=d$ and the set is $\{c\}$. It then follow that $a=c$ and $b=d$. \\\ \\\
+\textbf{Câu 2.1.46: } This exercise presents Russell's paradox. Let S be the set that contains a set x if the set x does not belong to itself, so that $S=\{x|x \notin x\}$.
+\begin{enumerate}[a)]
+\item  Show the assumption that S is the member of S leads to a contradiction.
+\item Show the assumption that S is not the member of S leads to  a contradiction.
+\end{enumerate} \\\ \\\
+\textbf{Lời giải:} \begin{enumerate}[a)]
+\item  If S is a member of S, then $S \notin S$, which means S is not a member of S. This leads a contradiction.
+\item If S is not a member of S, which means S does not belong to itself, then S must be a member of S. This leads to a contradiction.
+\end{enumerate} \\\ \\\
+\textbf{Câu 2.1.47: } Describe a procedure for listing all the subsets of a finite set.  \\\ \\\
+\textbf{Lời giải:} \\ Suppose that the elements of the set on question are listed: $A=\{a_{1},a_{2},...,a_{n}\}$. First, we will write down all the subsets that do not involve $a_{n}$. This is just the same problem we are talking about over again, but with a smaller set - one with just n-1 elements. We do this by the process we are currently describing. Then we write these same subsets down again, but this time adjoin $a_{n}$ to each one. Each subsets of A will have been written down, then - first all those that do not include $a_{n}$, and then all those that do.\\
+For example, using this procedure the subsets of ${a,b,c}$ would be listed in the order $\O ,\{a\},\{b\},\{a,b\},\{c\},\{a,c\},\{b,c\},\{a,b,c\}$.  \\\ \\\
+\textbf{Câu 2.2.5: }  Prove the complementation law in Table 1 by showing that $\lnot \lnot A = A$ \\\ \\\
+\textbf{Lời giải:} $\lnot \lnot A=\{x|x \notin \lnot A\}=\{x|\lnot (x \in \lnot A\}=\{x|\lnot (x \notin A)\}=\{x|x \in A\}$. \\\ \\\
+\textbf{Câu 2.2.6: } Prove the identity laws in Table 1 by showing that
+\begin{enumerate}[a)]
+\item $A \cup \O = A$
+\item $A \cap U = A$
+\end{enumerate} \\\ \\\
+\textbf{Lời giải:} \begin{enumerate}[a)]
+\item \begin{tabular}{|c|c|c|}
+\hline 
+A & $\O$ & $A \cup \O$ \\ 
+\hline 
+1 & 0 & 1 \\ 
+\hline 
+0 & 0 & 0 \\ 
+\hline 
+\end{tabular} 
+\item \begin{tabular}{|c|c|c|}
+\hline 
+A & U & $A \cap U$ \\ 
+\hline 
+1 & 1 & 1 \\ 
+\hline 
+0 & 1 & 0 \\ 
+\hline 
+\end{tabular} 
+\end{enumerate} \\\ \\\
+\textbf{Câu 2.2.7: }  Prove the domination laws in Table 1 by showing that
+\begin{enumerate}[a)]
+\item $A \cup U = U$
+\item $A \cap \O = \O$
+\end{enumerate} \\\ \\\
+\textbf{Lời giải:} \begin{enumerate}[a)]
+\item \begin{tabular}{|c|c|c|}
+\hline 
+A & U & $A \cup U$ \\ 
+\hline 
+1 & 1 & 1 \\ 
+\hline 
+0 & 1 & 1 \\ 
+\hline 
+\end{tabular} 
+\item \begin{tabular}{|c|c|c|}
+\hline 
+A & $\O$ & $A \cap \O$ \\ 
+\hline 
+1 & 0 & 0 \\ 
+\hline 
+0 & 0 & 0 \\ 
+\hline 
+\end{tabular} 
+\end{enumerate} \\\ \\\
+\textbf{Câu 2.2.8: }  Prove the idempotent laws in Table 1 by showing that
+\begin{enumerate}[a)]
+\item $A \cup A = A$
+\item $A \cap A = A$
+\end{enumerate} \\\ \\\
+\textbf{Lời giải:} \begin{enumerate}[a)]
+\item \begin{tabular}{|c|c|c|}
+\hline 
+A & A & $A \cup A$ \\ 
+\hline 
+1 & 1 & 1 \\ 
+\hline 
+0 & 0 & 0 \\ 
+\hline 
+\end{tabular} 
+\item \begin{tabular}{|c|c|c|}
+\hline 
+A & A & $A \cap A$ \\ 
+\hline 
+1 & 1 & 1 \\ 
+\hline 
+0 & 0 & 0 \\ 
+\hline 
+\end{tabular} 
+\end{enumerate} \\\ \\\
+\textbf{Câu 2.2.9: } Prove the complement laws in Table 1 by showing that
+\begin{enumerate}[a)]
+\item $A \cup \lnot A = U$
+\item $A \cap \lnot A = \O $
+\end{enumerate} \\\ \\\
+\textbf{Lời giải:} \begin{enumerate}[a)]
+\item \begin{tabular}{|c|c|c|c|}
+\hline 
+A & $\lnot A$ & $A \cup \lnot A$ & U \\ 
+\hline 
+1 & 0 & 1 & 1 \\ 
+\hline 
+0 & 1 & 1 & 1 \\ 
+\hline 
+\end{tabular} 
+\item \begin{tabular}{|c|c|c|c|}
+\hline 
+A & $\lnot A$ & $A \cap \lnot A$ & $\O$ \\ 
+\hline 
+1 & 0 & 0 & 0 \\ 
+\hline 
+0 & 1 & 0 & 0 \\ 
+\hline 
+\end{tabular} 
+\end{enumerate} \\\ \\\
+\textbf{Câu 2.2.10: } Show that
+\begin{enumerate}[a)]
+\item $A - \O = A$
+\item $\O - A = \O$
+\end{enumerate} \\\ \\\
+\textbf{Lời giải:} \begin{enumerate}[a)]
+\item $A - \O = A \cap \lnot \O = A \cap U =A$
+\item $\O - A = \O \cap \lnot A = \O$
+\end{enumerate} \\\ \\\
+\textbf{Câu 2.2.11: } Let A and b be sets. Prove the commutative laws from Table 1 by showing that 
+\begin{enumerate}[a)]
+\item $A \cup B = B \cup A$
+\item $A \cap B = B \cap A$
+\end{enumerate} \\\ \\\
+\textbf{Lời giải:} \begin{enumerate}[a)]
+\item \begin{tabular}{|c|c|c|c|}
+\hline 
+A & B & $A \cup B$ & $B \cup A$ \\ 
+\hline 
+1 & 1 & 1 & 1 \\ 
+\hline 
+1 & 0 & 1 & 1 \\ 
+\hline 
+0 & 1 & 1 & 1 \\ 
+\hline 
+0 & 0 & 0 & 0 \\ 
+\hline 
+\end{tabular} 
+\item \begin{tabular}{|c|c|c|c|}
+\hline 
+A & B & $A \cap B$ & $B \cap A$ \\ 
+\hline 
+1 & 1 & 1 & 1 \\ 
+\hline 
+1 & 0 & 0 & 0 \\ 
+\hline 
+0 & 1 & 0 & 0 \\ 
+\hline 
+0 & 0 & 0 & 0 \\ 
+\hline 
+\end{tabular} 
+\end{enumerate} \\\ \\\
+\textbf{Câu 2.2.12: } Prove the first absorption law from Table 1 by showing that if A and B are sets, then $A \cup (A \cap B)=A$ .
+ \\\ \\\
+\textbf{Lời giải:} \begin{tabular}{|c|c|c|c|}
+\hline 
+A & B & $A \cap B$ & $A \cup (A \cap B)$ \\ 
+\hline 
+1 & 1 & 1 & 1 \\ 
+\hline 
+1 & 0 & 0 & 1 \\ 
+\hline 
+0 & 1 & 0 & 0 \\ 
+\hline 
+0 & 0 & 0 & 0 \\ 
+\hline 
+\end{tabular}  \\\ \\\
+\textbf{Câu 2.2.13: } Prove the second absorption law from Table 1 by showing that if A and B are sets, then $A \cap (A \cup B)=A$  \\\ \\\
+\textbf{Lời giải:} \begin{tabular}{|c|c|c|c|}
+\hline 
+A & B & $A \cup B$ & $A \cap (A \cup B)$ \\ 
+\hline 
+1 & 1 & 1 & 1 \\ 
+\hline 
+1 & 0 & 1 & 1 \\ 
+\hline 
+0 & 1 & 1 & 0 \\ 
+\hline 
+0 & 0 & 0 & 0 \\ 
+\hline 
+\end{tabular}  \\\ \\\
+\textbf{Câu 2.2.14: } Find the sets A and B if $A-B=\{1,5,7,8\}, B-A=\{2,10\}$ and $A \cap B =\{3,6,9\}$ . \\\ \\\
+\textbf{Lời giải:} \begin{itemize}
+\item $$(A \cap B) \cup (A \cap \lnot B)=\{1,5,7,8,3,6,9\}$$
+$$\Leftrightarrow A \cap (B \cup \lnot B)=\{1,5,7,8,3,6,9\}$$
+$$\Leftrightarrow A \cap U=\{1,5,7,8,3,6,9\}$$
+$$\Leftrightarrow A =\{1,5,7,8,3,6,9\}$$
+\item $$(A \cap B) \cup (B \cap \lnot A)=\{2,10,3,6,9\}$$
+$$\Leftrightarrow B \cap (A \cup \lnot A)=\{2,10,3,6,9\}$$
+$$\Leftrightarrow B \cap U=\{2,10,3,6,9\}$$
+$$\Leftrightarrow B =\{2,10,3,6,9\}$$
+\end{itemize}
+ \\\ \\\
+\textbf{Câu 2.2.15: } Prove the second De Morgan's law in Table 1 by showing that if A and B are sets, then $\lnot (A \cup B)=\lnot A \cap \lnot B$
+\begin{enumerate}[a)]
+\item by showing each side is a subset of the other side.
+\item using a membership table.
+\end{enumerate} \\\ \\\
+\textbf{Lời giải:} \begin{enumerate}[a)]
+\item Suppose $x \in \lnot(A \cup B)$. Then  $x \notin (A \cup B)$, which means that $x$ is in neither A nor B. In other words, $x \notin A$ and $x \notin B$. This is equivalent to saying that $x \in \lnot A$ and $x \in \lnot B$. Therefor $x \in \lnot A \cap \lnot B$, as desired. Conversely, if $x \in \lnot A \cap \lnot B$, then $x \in \lnot A$ and $x \in \lnot B$. This means $x \notin A$ and $x \notin B$, so $x$ cannot be in the union of A and B. Since $x \notin (A \cup B)$, we conclude that  $x \in \lnot(A \cup B)$, as desired.
+\item \begin{tabular}{|c|c|c|c|c|c|c|}
+\hline 
+A & B & $\lnot A$ & $\lnot B$ & $A \cup B$ & $\lnot (A \cup B)$ & $\lnot A \cap \lnot B$ \\ 
+\hline 
+1 & 1 & 0 & 0 & 1 & 0 & 0 \\ 
+\hline 
+1 & 0 & 0 & 1 & 1 & 0 & 0 \\ 
+\hline 
+0 & 1 & 1 & 0 & 1 & 0 & 0 \\ 
+\hline 
+0 & 0 & 1 & 1 & 0 & 1 & 1 \\ 
+\hline 
+\end{tabular} 
+\end{enumerate}
+ \\\ \\\
+\textbf{Câu 2.2.16: } Let a and B be sets. Show that
+\begin{enumerate}[a)]
+\item $(A \cap B) \subseteq A$
+\item $A \subseteq (A \cup B) $
+\item $A-B \subseteq A$
+\item $A \cap (B-A)= \O$
+\item $A \cup (B-A)= A \cup B$
+\end{enumerate} \\\ \\\
+\textbf{Lời giải:} \begin{enumerate}[a)]
+\item $x \in (A \cap B) \Rightarrow x \in A \land x \in B \Rightarrow x \in A \Rightarrow (A \cap B) \subseteq A$
+\item $x \in A \Rightarrow x \in A \lor x \in B \Rightarrow x \in (A \cup B) \Rightarrow A \subseteq (A \cup B) $
+\item $x \in A-B \Leftrightarrow x \in (A \cap \lnot B) \Leftrightarrow x \in A \land x \in \lnot B \Rightarrow x \in A \Rightarrow A-B \subseteq A$
+\item $A \cap (B-A)=A \cap (B \cap \lnot A)=B \cap (A \cap \lnot A)=B \cap \O =\O$
+\item $A \cup (B-A)=A \cup (B \cap \lnot A)=(A \cup B) \cap (A \cup \lnot A)=(A \cup B) \cap U=A \cup B$
+\end{enumerate} \\\ \\\
+\textbf{Câu 2.2.17: }  Show that if A,B, and C are sets, then $\lnot (A \cap B \cap C)=\lnot A \cup \lnot B \cup \lnot C$
+\begin{enumerate}[a)]
+\item by showing each side is a subset of the other side
+\item using a membership table
+\end{enumerate} \\\ \\\
+\textbf{Lời giải:} \begin{enumerate}[a)]
+\item
+\begin{itemize}
+\item Suppose that $x \in \lnot (A \cap B \cap C) 
+\Rightarrow x \notin A \cap B \cap C 
+\Rightarrow x \notin A \lor x \notin B \lor x \notin C
+\Rightarrow x \in \lnot A \lor x \in \lnot B \lor x \in \lnot C$\\\\
+$\Rightarrow x \in (\lnot A \cup \lnot B \cup \lnot C)
+\Rightarrow \lnot (A \cap B \cap C) \subseteq (\lnot A \cup \lnot B \cup \lnot C)$ (1)
+\item Suppose that $x \in \lnot A \cup \lnot B \cup \lnot C \Rightarrow x \in \lnot A \lor x \in \lnot B \lor x \in \lnot C \Rightarrow x \notin A \lor x \notin B \lor x \notin C$\\\\
+$ x \notin A \cap B \cap C \Rightarrow x \in \lnot (A \cap B \cap C) \Rightarrow (\lnot A \cup \lnot B \cup \lnot C) \subseteq \lnot (A \cap B \cap C)$(2)\\\\
+(1)(2)$\Rightarrow \lnot (A \cap B \cap C)=\lnot A \cup \lnot B \cup \lnot C$
+\end{itemize}
+\item \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline 
+A & B & C & $\lnot A$ & $\lnot B$ & $\lnot C$ & $A \cap B \cap C$ & $\lnot (A \cap B \cap C)$ & $\lnot A \cup \lnot B \cup \lnot C$ \\ 
+\hline 
+1 & 1 & 1 & 0 & 0 & 0 & 1 & 0 & 0 \\ 
+\hline 
+1 & 1 & 0 & 0 & 0 & 1 & 0 & 1 & 1 \\ 
+\hline 
+1 & 0 & 1 & 0 & 1 & 0 & 0 & 1 & 1 \\ 
+\hline 
+1 & 0 & 0 & 0 & 1 & 1 & 0 & 1 & 1 \\ 
+\hline 
+0 & 1 & 1 & 1 & 0 & 0 & 0 & 1 & 1 \\ 
+\hline 
+0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 & 1 \\ 
+\hline 
+0 & 0 & 1 & 1 & 1 & 0 & 0 & 1 & 1 \\ 
+\hline 
+0 & 0 & 0 & 1 & 1 & 1 & 0 & 1 & 1 \\ 
+\hline 
+\end{tabular} 
+\end{enumerate} \\\ \\\
 \clearpage
 
 \section{Homework03b\_Sequences.pdf}
